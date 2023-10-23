@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tukoapp/screens/NumbersPage.dart';
 import 'package:tukoapp/screens/colors.dart';
 import 'package:tukoapp/screens/familyMembers.dart';
-
+import 'package:tukoapp/screens/phrases.dart';
 
 import '../components/category.dart';
 
@@ -32,19 +32,34 @@ class HomePage extends StatelessWidget {
           ),
           Category(
             onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => FamilyMembers(),));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => FamilyMembers(),
+                  ));
             },
             text: 'Family Members',
             color: const Color(0xff528032),
           ),
           Category(
-            onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> ColorsPage(),));
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ColorsPage(),
+                  ));
             },
             text: 'Colors',
             color: const Color(0xff7C3FA1),
           ),
           Category(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PhrasesPage(),
+                  ));
+            },
             text: 'Phrases',
             color: const Color(0xff47A5CB),
           ),
