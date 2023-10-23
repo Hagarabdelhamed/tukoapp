@@ -58,6 +58,7 @@ class ColorsPage extends StatelessWidget {
       ),
       body: ListView.builder(
           itemCount: color.length,
+          
           itemBuilder: (context, index) => ColorsCompo(color: color[index])),
     );
   }

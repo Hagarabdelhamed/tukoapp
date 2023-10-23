@@ -10,12 +10,14 @@ class PhrasesCompo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: const Color(0xff47A5CB),
-      height: 90,
+      height: 140,
       child: Row(
         children: [
           Expanded(child: ItemComp(item: phrase)),
+          
         ],
       ),
+      
     );
   }
 }

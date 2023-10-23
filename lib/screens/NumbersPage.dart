@@ -69,6 +69,7 @@ class NumbersPage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemCount: numbers.length,
+      
         itemBuilder: (context, index) =>NumberCompo(number: numbers[index])
       )
     );
