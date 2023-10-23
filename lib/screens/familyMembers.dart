@@ -1,8 +1,6 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:tukoapp/components/familyCompo.dart';
-
-
 import '../models/PageModel.dart';
 
 

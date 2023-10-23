@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tukoapp/components/colorsCompo.dart';
 
 import '../models/PageModel.dart';
-import '../models/PageModel.dart';
 
 class ColorsPage extends StatelessWidget {
   ColorsPage({super.key});
