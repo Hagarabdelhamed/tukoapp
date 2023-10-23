@@ -1,6 +1,7 @@
-# tukoapp
 
-A new Flutter project.
+# Tuko App
+
+Welcome to the Japanese Language Learning App! This application is designed to help beginners learn the Japanese language using Flutter, a popular cross-platform mobile app development framework. Whether you're starting from scratch or looking to improve your existing skills, this app provides a comprehensive learning experience.
 
 ## Getting Started
 
