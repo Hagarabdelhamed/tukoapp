@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tukoapp/components/ItemRow.dart';
+import 'package:tukoapp/components/NumberCompo.dart';
 
 
 import '../models/PageModel.dart';
@@ -69,7 +69,7 @@ class NumbersPage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemCount: numbers.length,
-        itemBuilder: (context, index) =>ItemRow(number: numbers[index])
+        itemBuilder: (context, index) =>NumberCompo(number: numbers[index])
       )
     );
   }

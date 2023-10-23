@@ -21,12 +21,12 @@ class FamilyMembers extends StatelessWidget {
         sound: 'sounds/family_members/grand_mother.mp3'),
     PageModel(
         image: 'assets/images/family_members/family_father.png',
-        japText: 'Otousan',
+        japText: 'Chichi',
         engText: 'Father',
         sound: 'sounds/family_members/father.mp3'),
     PageModel(
         image: 'assets/images/family_members/family_mother.png',
-        japText: ' Okaasan',
+        japText: ' Haha',
         engText: 'Mother',
         sound: 'sounds/family_members/mother.mp3'),
     PageModel(
